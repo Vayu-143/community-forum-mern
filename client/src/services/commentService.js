@@ -1,10 +1,8 @@
 import axios from "axios";
 
 const API =
-  import.meta.env.VITE_API_URL +
-  "/comments";
+  `${import.meta.env.VITE_API_URL}/comments`;
 
-// Get comments
 export const getComments =
   async (discussionId) => {
     return await axios.get(
@@ -12,7 +10,6 @@ export const getComments =
     );
   };
 
-// Add comment
 export const addComment =
   async (
     commentData,
