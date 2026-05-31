@@ -278,31 +278,6 @@ GET /api/users/profile
 
 # 📸 Screenshots
 
-Add project screenshots inside:
-
-```bash
-docs/screenshots/
-```
-
-Example:
-
-```bash
-docs/screenshots/login.png
-
-docs/screenshots/dashboard.png
-
-docs/screenshots/discussion-details.png
-
-docs/screenshots/profile.png
-
-docs/screenshots/register.png
-
-docs/screenshots/chat.png
-```
-
-Then display them:
-
-```md
 ## Login Page
 
 ![Login](docs/screenshots/login.png)
